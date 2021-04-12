@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+   background: rgb(134,227,206);
+background: linear-gradient(90deg, rgba(134,227,206,1) 0%, rgba(208,230,165,1) 50%, rgba(255,221,148,1) 100%);
+}
+ html {
+        scroll-behavior: smooth;
+    }
+img {
+    height: 500px;
+    width: 500px;
+}
+li {
+    font-size: 30px;
+}
+p {
+    font-size: 40px;
+}
+hr {
+    width:2000px;
+    color:hotpink
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: lightcoral;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
